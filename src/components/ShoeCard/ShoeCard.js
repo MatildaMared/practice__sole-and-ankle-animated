@@ -91,6 +91,7 @@ const Wrapper = styled.article``;
 const Image = styled.img`
 	width: 100%;
 	transform-origin: center 200px;
+  display: block;
 
 	@media (prefers-reduced-motion: no-preference) {
 		transition: transform 500ms;
