@@ -74,8 +74,8 @@ const Link = styled.a`
 const ImageWrapper = styled.div`
 	position: relative;
 	&:hover img {
-		transform: scale(1.1);
 		@media (prefers-reduced-motion: no-preference) {
+			transform: scale(1.1);
 			transition: transform 200ms;
 		}
 	}
@@ -91,7 +91,8 @@ const Wrapper = styled.article``;
 const Image = styled.img`
 	width: 100%;
 	transform-origin: center 200px;
-  display: block;
+	display: block;
+	will-change: transform;
 
 	@media (prefers-reduced-motion: no-preference) {
 		transition: transform 500ms;
