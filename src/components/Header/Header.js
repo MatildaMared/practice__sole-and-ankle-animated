@@ -22,27 +22,27 @@ const Header = () => {
 				<DesktopNav>
 					<NavLink href="/sale">
 						<span>Sale</span>
-						<span>Sale</span>
+						<span aria-hidden="true">Sale</span>
 					</NavLink>
 					<NavLink href="/new">
 						<span>New&nbsp;Releases</span>
-						<span>New&nbsp;Releases</span>
+						<span aria-hidden="true">New&nbsp;Releases</span>
 					</NavLink>
 					<NavLink href="/men">
 						<span>Men</span>
-						<span>Men</span>
+						<span aria-hidden="true">Men</span>
 					</NavLink>
 					<NavLink href="/women">
 						<span>Women</span>
-						<span>Women</span>
+						<span aria-hidden="true">Women</span>
 					</NavLink>
 					<NavLink href="/kids">
 						<span>Kids</span>
-						<span>Kids</span>
+						<span aria-hidden="true">Kids</span>
 					</NavLink>
 					<NavLink href="/collections">
 						<span>Collections</span>
-						<span>Collections</span>
+						<span aria-hidden="true">Collections</span>
 					</NavLink>
 				</DesktopNav>
 				<MobileActions>
